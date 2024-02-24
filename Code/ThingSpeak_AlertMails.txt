@@ -1,0 +1,14 @@
+channelID = 2136776;
+alertAPIKey = ‘AAN*************’;
+alert_body = ‘Dustbin is full at location – “”’;
+alert_subject = ‘Dustbin Full’;
+alertUrl = “https://api.thingspeak.com/alerts/send”;
+options = weboptions(“HeaderFields”,[“ThingSpeak-Alerts-API-Key”,alertAPIKey]);
+alertSubject = sprint(“Dustbin Full”);
+percentfull = thingSpeakRead(channelID, ‘percentage full’, 1, “Fields”,1);
+if (percentfull>70);
+	try
+		webwrite(alertUrl, “body”, alert_body, “subject”, alertSubject, options);
+	catch someException
+	end
+end
