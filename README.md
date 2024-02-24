@@ -2,7 +2,7 @@
 
 ### <pre> Problem Statement </pre>
 
-Inefficient waste management practices in public areas lead to overflow, littering, and unsanitary conditions, affecting community well-being and the environment. This can be due to carelessness of people or due to improper covering of the bin. Additionally, densely populated areas like marketplaces may exacerbate the problem due to insufficient availability of empty dustbins to accommodate the generated waste. Furthermore, inadequate and irregular emptying of dustbins by Municipal Corporations can also contribute to the accumulation of waste and subsequent overflow. These problems are addressed by the <b> Smart Bin </b>
+Inefficient waste management practices in public areas lead to overflow, littering, and unsanitary conditions, affecting community well-being and the environment. This can be due to <b>carelessness of people</b> or due to <b>improper covering</b> of the bin. Additionally, densely populated areas like marketplaces may exacerbate the problem due to <b>insufficient availability of empty dustbins</b> to accommodate the generated waste. Furthermore, inadequate and <b>irregular emptying of dustbins</b> by Municipal Corporations can also contribute to the accumulation of waste and subsequent overflow. These problems are addressed by the <b> Smart Bin </b>
 
 ### <pre> Current Features of the Smart Bin</pre>
 
